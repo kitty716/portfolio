@@ -1,11 +1,36 @@
 
 body {
   font-size: 100%;
+  line-height: 1.5;
+  color: black;
+}
+
+h1, h2 {
   color: black;
 }
 
 img {
-  width: 80%;
+  width: 90%;
+}
+
+article {
+  border-bottom: 1px solid black;
+  margin: 0 3%;
+}
+
+main h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0 3%;
+  padding-top: 3%;
+}
+
+main h2 {
+  background-color: orange;
+}
+
+p {
+  font-size: 1em;
 }
 
 a, a:link, a:active {
@@ -19,4 +44,15 @@ a:hover, a:focus {
 
 a:visited {
   color: #AAA;
+}
+
+@media only screen and (min-width: 640px) {
+  /*.heading {
+    display: inline-flex;
+  }*/
+
+  .heading h1, h2 {
+  color: white;
+  }
+  
 }
